@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="_01_Runners._01_A101_Runner"></include>-->
+<!--        </run>-->
+<!--    </groups>-->
+    <test name="Test 1" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="_01_Runners._01_A101_Runner"></class>
+        </classes>
+    </test>
+</suite>
